@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TopoCode | Agencia de Desarrollo de Software</title>
+    <meta
+      name="description"
+      content="TopoCode es una mini agencia de desarrollo de software enfocada en negocios locales. Creamos páginas web, tiendas en línea, apps y sistemas a la medida."
+    />
+    <meta name="theme-color" content="#111111" />
+    <script>
+      (function () {
+        const theme = localStorage.getItem("topocode-theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (theme === "dark" || (!theme && prefersDark)) {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.add("light");
+        }
+
+        const language = localStorage.getItem("topocode-language");
+        const browserLang = navigator.language?.split("-")[0];
+        document.documentElement.lang =
+          language || (browserLang === "en" ? "en" : "es");
+      })();
+    </script>
+    <link rel="canonical" href="https://topocode.mx/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://topocode.mx/" />
+    <meta property="og:title" content="TopoCode | Agencia de Desarrollo de Software" />
+    <meta
+      property="og:description"
+      content="Creamos páginas web, apps y soluciones digitales para negocios que quieren crecer."
+    />
+    <meta property="og:image" content="https://topocode.mx/og-image.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TopoCode | Agencia de Desarrollo de Software" />
+    <meta
+      name="twitter:description"
+      content="Creamos páginas web, apps y soluciones digitales para negocios que quieren crecer."
+    />
+    <meta name="twitter:image" content="https://topocode.mx/og-image.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-DDyAqXgU.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DMvOfnin.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

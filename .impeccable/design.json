@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-19T03:00:00.000Z",
+  "title": "Design System: TopoCode",
+  "extensions": {
+    "colorMeta": {
+      "polar-neon": {
+        "role": "primary",
+        "displayName": "Polar Neon",
+        "canonical": "oklch(60% 0.09 255)",
+        "tonalRamp": [
+          "oklch(20% 0.03 255)",
+          "oklch(25% 0.04 255)",
+          "oklch(30% 0.05 255)",
+          "oklch(40% 0.07 255)",
+          "oklch(50% 0.08 255)",
+          "oklch(60% 0.09 255)",
+          "oklch(70% 0.08 255)",
+          "oklch(85% 0.04 255)"
+        ]
+      },
+      "polar-neon-dark": {
+        "role": "primary",
+        "displayName": "Polar Neon Dark",
+        "canonical": "oklch(55% 0.08 255)",
+        "tonalRamp": [
+          "oklch(20% 0.03 255)",
+          "oklch(30% 0.05 255)",
+          "oklch(40% 0.06 255)",
+          "oklch(50% 0.07 255)",
+          "oklch(55% 0.08 255)",
+          "oklch(60% 0.09 255)",
+          "oklch(70% 0.08 255)",
+          "oklch(80% 0.06 255)"
+        ]
+      },
+      "midnight-bg": {
+        "role": "neutral",
+        "displayName": "Midnight BG",
+        "canonical": "oklch(25% 0.03 255)",
+        "tonalRamp": [
+          "oklch(10% 0.02 255)",
+          "oklch(15% 0.02 255)",
+          "oklch(20% 0.03 255)",
+          "oklch(25% 0.03 255)",
+          "oklch(30% 0.03 255)",
+          "oklch(35% 0.04 255)",
+          "oklch(40% 0.04 255)",
+          "oklch(50% 0.05 255)"
+        ]
+      },
+      "midnight-surface": {
+        "role": "neutral",
+        "displayName": "Midnight Surface",
+        "canonical": "oklch(30% 0.03 255)",
+        "tonalRamp": [
+          "oklch(10% 0.02 255)",
+          "oklch(18% 0.02 255)",
+          "oklch(25% 0.03 255)",
+          "oklch(30% 0.03 255)",
+          "oklch(35% 0.04 255)",
+          "oklch(42% 0.04 255)",
+          "oklch(50% 0.05 255)",
+          "oklch(60% 0.06 255)"
+        ]
+      },
+      "midnight-surface-soft": {
+        "role": "neutral",
+        "displayName": "Midnight Surface Soft",
+        "canonical": "oklch(36% 0.04 255)",
+        "tonalRamp": [
+          "oklch(15% 0.02 255)",
+          "oklch(22% 0.03 255)",
+          "oklch(30% 0.04 255)",
+          "oklch(36% 0.04 255)",
+          "oklch(42% 0.05 255)",
+          "oklch(50% 0.05 255)",
+          "oklch(60% 0.06 255)",
+          "oklch(70% 0.06 255)"
+        ]
+      },
+      "midnight-black": {
+        "role": "neutral",
+        "displayName": "Midnight Black",
+        "canonical": "oklch(21% 0.03 255)",
+        "tonalRamp": [
+          "oklch(8% 0.01 255)",
+          "oklch(12% 0.02 255)",
+          "oklch(16% 0.02 255)",
+          "oklch(21% 0.03 255)",
+          "oklch(26% 0.03 255)",
+          "oklch(32% 0.04 255)",
+          "oklch(40% 0.04 255)",
+          "oklch(50% 0.05 255)"
+        ]
+      },
+      "frost": {
+        "role": "neutral",
+        "displayName": "Frost",
+        "canonical": "oklch(88% 0.02 255)",
+        "tonalRamp": [
+          "oklch(30% 0.03 255)",
+          "oklch(45% 0.04 255)",
+          "oklch(60% 0.05 255)",
+          "oklch(72% 0.04 255)",
+          "oklch(80% 0.03 255)",
+          "oklch(88% 0.02 255)",
+          "oklch(93% 0.01 255)",
+          "oklch(97% 0.01 255)"
+        ]
+      },
+      "cloud": {
+        "role": "neutral",
+        "displayName": "Cloud",
+        "canonical": "oklch(95% 0.01 255)",
+        "tonalRamp": [
+          "oklch(35% 0.02 255)",
+          "oklch(50% 0.02 255)",
+          "oklch(65% 0.02 255)",
+          "oklch(78% 0.01 255)",
+          "oklch(88% 0.01 255)",
+          "oklch(93% 0.01 255)",
+          "oklch(96% 0.005 255)",
+          "oklch(100% 0 0)"
+        ]
+      },
+      "steel": {
+        "role": "neutral",
+        "displayName": "Steel",
+        "canonical": "oklch(82% 0.03 255)",
+        "tonalRamp": [
+          "oklch(30% 0.03 255)",
+          "oklch(45% 0.04 255)",
+          "oklch(58% 0.05 255)",
+          "oklch(68% 0.04 255)",
+          "oklch(75% 0.04 255)",
+          "oklch(82% 0.03 255)",
+          "oklch(90% 0.02 255)",
+          "oklch(96% 0.01 255)"
+        ]
+      },
+      "borderline": {
+        "role": "neutral",
+        "displayName": "Borderline",
+        "canonical": "oklch(48% 0.05 255)",
+        "tonalRamp": [
+          "oklch(20% 0.02 255)",
+          "oklch(28% 0.03 255)",
+          "oklch(35% 0.04 255)",
+          "oklch(42% 0.05 255)",
+          "oklch(48% 0.05 255)",
+          "oklch(55% 0.06 255)",
+          "oklch(65% 0.06 255)",
+          "oklch(78% 0.04 255)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headlines only. Max 2 lines on desktop."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles. One idea per headline."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card titles, service names, process steps."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs and descriptions. Max 65ch line length."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form labels, micro-text, occasional badges. Use sparingly."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ambient-lift",
+        "value": "0 20px 44px rgba(110,135,183,0.18)",
+        "purpose": "Card hover elevation. Tinted with the accent color."
+      },
+      {
+        "name": "diffuse-depth",
+        "value": "0 25px 50px rgba(0,0,0,0.35)",
+        "purpose": "Large panels and modals over dark backgrounds."
+      },
+      {
+        "name": "soft-float",
+        "value": "0 8px 24px rgba(0,0,0,0.25)",
+        "purpose": "Floating elements like the scrolled navbar."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Default reveal and hover easing. Smooth deceleration."
+      },
+      {
+        "name": "ease-spring",
+        "value": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "purpose": "Tactile button press and micro-interactions."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main CTA. Pill shape, accent background, strong tactile response.",
+      "html": "<button class=\"ds-btn-primary\">Cotizar proyecto</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; font-family: Inter, system-ui, sans-serif; font-weight: 600; font-size: 1rem; color: #ffffff; background: #6E87B7; border: none; border-radius: 9999px; padding: 14px 32px; cursor: pointer; transition: background 0.2s cubic-bezier(0.22, 1, 0.36, 1), transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.2s cubic-bezier(0.22, 1, 0.36, 1); box-shadow: 0 0 0 rgba(110,135,183,0); } .ds-btn-primary:hover { background: #5F78A9; transform: translateY(-2px) scale(1.02); box-shadow: 0 10px 30px rgba(110,135,183,0.25); } .ds-btn-primary:active { transform: translateY(-1px) scale(0.98); } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 2px #2B303A, 0 0 0 4px #6E87B7; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Alternative action. Transparent with accent border.",
+      "html": "<button class=\"ds-btn-secondary\">Ver servicios</button>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; font-family: Inter, system-ui, sans-serif; font-weight: 600; font-size: 1rem; color: #D5DEEB; background: transparent; border: 1px solid rgba(110,135,183,0.7); border-radius: 9999px; padding: 14px 32px; cursor: pointer; transition: background 0.2s cubic-bezier(0.22, 1, 0.36, 1), color 0.2s cubic-bezier(0.22, 1, 0.36, 1), transform 0.2s cubic-bezier(0.22, 1, 0.36, 1); } .ds-btn-secondary:hover { background: rgba(110,135,183,0.15); color: #ffffff; transform: translateY(-2px); } .ds-btn-secondary:active { transform: translateY(-1px) scale(0.98); } .ds-btn-secondary:focus-visible { outline: none; box-shadow: 0 0 0 2px #2B303A, 0 0 0 4px #6E87B7; }"
+    },
+    {
+      "name": "Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Elevated surface for services, reasons, and feature content.",
+      "html": "<div class=\"ds-card\"><h3 class=\"ds-card-title\">Landing Pages</h3><p class=\"ds-card-body\">Páginas de alto impacto diseñadas para convertir visitantes en clientes.</p></div>",
+      "css": ".ds-card { font-family: Inter, system-ui, sans-serif; background: #333A46; color: #F0F1F5; border: 1px solid #566176; border-top-color: rgba(255,255,255,0.1); border-radius: 16px; padding: 24px; transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s cubic-bezier(0.22, 1, 0.36, 1); } .ds-card:hover { transform: translateY(-8px); box-shadow: 0 20px 44px rgba(110,135,183,0.18); } .ds-card-title { font-size: 1.25rem; font-weight: 600; line-height: 1.3; letter-spacing: -0.01em; margin: 0 0 8px 0; color: #F0F1F5; } .ds-card-body { font-size: 1rem; font-weight: 400; line-height: 1.65; margin: 0; color: #C1CBDC; }"
+    },
+    {
+      "name": "Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Form field with dark surface and accent focus ring.",
+      "html": "<div class=\"ds-input-group\"><label class=\"ds-input-label\" for=\"name\">Nombre</label><input class=\"ds-input\" id=\"name\" placeholder=\"Tu nombre\" /></div>",
+      "css": ".ds-input-group { display: flex; flex-direction: column; gap: 6px; font-family: Inter, system-ui, sans-serif; } .ds-input-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #D5DEEB; } .ds-input { width: 100%; font-size: 1rem; color: #F0F1F5; background: rgba(34,39,49,0.8); border: 1px solid #566176; border-radius: 12px; padding: 12px 16px; outline: none; transition: border-color 0.2s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.2s cubic-bezier(0.22, 1, 0.36, 1); } .ds-input::placeholder { color: #C1CBDC; } .ds-input:focus { border-color: transparent; box-shadow: 0 0 0 2px #6E87B7; }"
+    },
+    {
+      "name": "Navbar",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Fixed top navigation with transparent-to-scrolled transition.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-logo\" href=\"#\">TopoCode</a><div class=\"ds-nav-links\"><a href=\"#\">Servicios</a><a href=\"#\">Proceso</a><a href=\"#\">Contacto</a></div><button class=\"ds-nav-cta\">Cotizar</button></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; height: 72px; padding: 0 24px; font-family: Inter, system-ui, sans-serif; background: transparent; transition: background 0.3s ease, backdrop-filter 0.3s ease; } .ds-nav.scrolled { background: rgba(34,39,49,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid #566176; } .ds-nav-logo { font-weight: 800; color: #F0F1F5; text-decoration: none; } .ds-nav-links { display: flex; gap: 32px; } .ds-nav-links a { font-size: 0.875rem; font-weight: 500; color: rgba(213,222,235,0.8); text-decoration: none; transition: color 0.2s ease; } .ds-nav-links a:hover { color: #ffffff; } .ds-nav-cta { font-family: inherit; font-weight: 600; font-size: 0.875rem; color: #ffffff; background: #6E87B7; border: none; border-radius: 9999px; padding: 10px 20px; cursor: pointer; transition: background 0.2s ease; } .ds-nav-cta:hover { background: #5F78A9; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Midnight Studio",
+    "overview": "TopoCode se presenta como un estudio nocturno de diseño y desarrollo: un espacio oscuro, enfocado y deliberado, donde el color solo aparece cuando tiene algo que decir. El fondo profundo absorbe la atención; el azul frío actúa como una luz de trabajo precisa. No hay ruido visual, no hay gradientes decorativos, no hay llamadas desesperadas a la acción.",
+    "keyCharacteristics": [
+      "Oscuro por convicción, no por moda. El fondo profundo sostiene el contenido.",
+      "Un solo acento: el azul polar. Raro y preciso.",
+      "Superficies con borde de vidrio: bordes translúcidos, inner highlights y transiciones suaves.",
+      "Tipografía Inter usada con intención: pesos, tracking y escala claros.",
+      "Movimiento como respuesta, no como decoración."
+    ],
+    "rules": [
+      { "name": "The One Accent Rule", "body": "Solo existe Polar Neon como acento en toda la página. No hay segundos acentos, no hay gradientes multicolor, no hay estados verdes o amarillos por inercia.", "section": "colors" },
+      { "name": "The No Black Rule", "body": "El negro puro (#000000) está prohibido. Los fondos oscuros son azulados o carbonizados (#222731 como límite inferior).", "section": "colors" },
+      { "name": "The Two-Line Hero Rule", "body": "El headline del hero no puede superar 2 líneas en desktop. Si el copy no cabe, se acorta el copy o se reduce la escala.", "section": "typography" },
+      { "name": "The No Serif Rule", "body": "No se usa serif para 'darle creatividad'. La creatividad viene del layout, la animación y la precisión, no de mezclar familias tipográficas.", "section": "typography" },
+      { "name": "The Glass Edge Rule", "body": "Todo contenedor elevado lleva un borde superior o interno translúcido para simular refracción de luz sobre el borde.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do mantener el fondo oscuro en toda la página. Midnight BG como base, Midnight Surface para tarjetas.",
+      "Do usar Polar Neon como único acento, con moderación. Un botón, un icono, un foco. No más.",
+      "Do reservar espacio en blanco entre secciones. La página debe respirar.",
+      "Do usar imágenes reales o generadas para el hero y el portfolio. Un mockup de <div>s no cuenta.",
+      "Do implementar prefers-reduced-motion para todas las animaciones."
+    ],
+    "donts": [
+      "Don't usar gradientes de texto o fondos con blobs morados/azules sin significado.",
+      "Don't poner una eyebrow mayúscula encima de cada sección. Máximo una cada tres secciones.",
+      "Don't usar tarjetas idénticas en filas de tres como solución por defecto.",
+      "Don't construir previews de producto con <div>s que simulan dashboards o terminales.",
+      "Don't mezclar grises cálidos y fríos en la misma página."
+    ]
+  }
+}
